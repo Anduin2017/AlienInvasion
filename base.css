@@ -1,0 +1,16 @@
+﻿
+/*将容器居中*/
+#container {
+    padding-top: 0px;
+    margin: auto;
+    width: 340px;
+}
+/*控制背景*/
+canvas {
+    background-color: black;
+    width: 340px;
+    height: 500px;
+}
+body{
+    background-color:#C2CAC8;
+}
