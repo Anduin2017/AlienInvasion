@@ -408,7 +408,7 @@
     }
 
     //等级控制
-    var Level = function (levelData, callback) {
+    var Level = function (callback) {
         this.levelData = [];
         var ShouldShowMoney = false;
         this.levelData.push(Object.create([2000, 3000, 1000, "Money1Step", { x: 50 }]));
@@ -994,7 +994,7 @@ var playGame = function () {
     var board = new GameBoard();
     Game.dt = 25000;
     board.add(Game.Air);
-    board.add(new Level(level1, winGame));
+    board.add(new Level(winGame));
     Game.setBoard(4, board);
     Game.setBoard(6, new GamePoiots(0));
 }
