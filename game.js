@@ -174,15 +174,15 @@
         this.setupInput = function () {
             //添加按下按键监听器
             window.addEventListener('keydown', function (e) {
-                if (KEY_CODES[event.keyCode]) {
-                    Game.keys[KEY_CODES[event.keyCode]] = true;
+                if (KEY_CODES[e.keyCode]) {
+                    Game.keys[KEY_CODES[e.keyCode]] = true;
                     e.preventDefault();
                 }
             }, false);
             //添加松开按键监听器
             window.addEventListener('keyup', function (e) {
-                if (KEY_CODES[event.keyCode]) {
-                    Game.keys[KEY_CODES[event.keyCode]] = false;
+                if (KEY_CODES[e.keyCode]) {
+                    Game.keys[KEY_CODES[e.keyCode]] = false;
                     e.preventDefault();
                 }
             }, false);
