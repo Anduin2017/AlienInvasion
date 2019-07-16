@@ -8,6 +8,6 @@ Just clone the project and double click `index.html`
 
 ## How to play
 
-Press <Space> to start.
+Press `<Space>` to start.
   
 Supports touch screen.
